@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .login{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+
+  .login h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .login button{
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 2px;
+  }
